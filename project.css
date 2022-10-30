@@ -1,0 +1,99 @@
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-0 {
+    position; relative;
+    left: -30px;
+    margin-top: 30px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item-0 {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px; 
+    margin-right: 30px;
+    position: relative;
+    top: 8px;
+    left: 25vw;
+    color: lightgrey
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black; 
+}
+
+.nav-item-logo {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 28px;
+    margin-right: 100px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#active {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: white;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 21vh;
+    position: relative;
+    left: 25px;
+    
+}
+
+h1 {
+    font-size: 100px;
+}
+
+p1 {
+    font-size: 30px;
+}
+
+button {
+    width: 144px;
+    height: 36px;
+    border: none;
+    border-radius: 0px;
+    background-color: white;
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.bar {
+    height: 30px;
+    background-color: white;
+    border: solid;
+    position: relative;
+}
+
+.predictions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: -20px;
+    margin-top: 21.5vh;
+}
+
+
+
